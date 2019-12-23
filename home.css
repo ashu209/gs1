@@ -1,0 +1,42 @@
+body{
+margin:0;
+}
+.header{
+background-color:green;
+padding:30px;
+}
+.btn-group button {
+  background-color:orange; 
+  border: 1px solid black;
+  color: black; 
+  padding: 14px 20px; 
+  cursor: pointer; 
+  float: left; 
+}
+.btn-group button:hover {
+  background-color:pink;
+}
+.topnav input[type=text] {
+  padding: 4px;
+  margin-top:0px;
+  font-size: 17px;
+  border: none;
+  float:right;
+}
+.topnav .search-container button {
+  float: right;
+  padding: 6px 14px;
+  margin-top: 1px;
+  margin-right: 1px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+margin-right:960px;
+    float: none;
+  } 
+  }
+}
